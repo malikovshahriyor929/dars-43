@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  </head>
+  <body class="relative w-full main_swiper   ">
+     <!-- <header class="bg_img">
+      <div class="container2">
+        <div
+          class="py-5 flex gap-8 header items-center justify-between w-full max-[900px]:flex-col-reverse max-[900px]:gap-5 max-[900px]:w-full"
+        >
+          <div
+            class="flex items-center gap-10 max-[900px]:justify-between max-[900px]:w-full max-[300px]:gap-4"
+          >
+            <img
+              class="border-r border-white pr-3 max-[900px]:border-0 max-[900px]:pr-0"
+              src="./assets/svg/logo.svg"
+              alt=""
+            />
+            <div class="flex items-center gap-2">
+              <img src="./assets/svg/catalog.svg" alt="" />
+              <p class="text-white font-semibold">Каталог</p>
+            </div>
+          </div>
+
+          <input class="hidden" id="check" type="checkbox" />
+
+          <div
+            class="flex gap-5 max-[900px]:border-b border-[white] max-[900px]:pb-5 max-[900px]:justify-between max-[900px]:w-full links"
+          >
+            <div
+              class="flex gap-5 max-[559px]:flex-col max-[559px]:items-center"
+            >
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/location.svg" alt="" />
+                <p class="text-white font-semibold">г. Москва</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/phone.svg" alt="" />
+                <a
+                  href="tel:+7 (495) 151-08-02"
+                  class="text-white font-semibold"
+                  >+7 (495) 151-08-02</a
+                >
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/cart.svg" alt="" />
+                <p class="text-white font-semibold">Корзина</p>
+                <p
+                  class="bg-[#ec0d0d] py-0 px-1 rounded-xl flex items-center justify-center text-white text-[14px] font-semibold text-center"
+                >
+                  100
+                </p>
+              </div>
+              <div class="gap-5 items-center max-[559px]:flex hidden">
+                <img src="./assets/svg/whatapp.svg" alt="" />
+                <img src="./assets/svg/mail.svg" alt="" />
+                <img src="./assets/svg/search.svg" alt="" />
+                <label class="absolute top-7 right-8" for="check">
+                  <img src="./assets/svg/x.svg" alt="" />
+                </label>
+              </div>
+            </div>
+
+            <div class="gap-5 items-center min-[559px]:flex hidden">
+              <img src="./assets/svg/whatapp.svg" alt="" />
+              <img src="./assets/svg/mail.svg" alt="" />
+              <img src="./assets/svg/search.svg" alt="" />
+            </div>
+          </div>
+
+          <label class="w-full hidden max-[559px]:flex" for="check">
+            <div
+              class="items-center justify-between w-full border-b border-[white] pb-5 flex"
+            >
+              <div class="flex gap-2 items-center">
+                <img src="./assets/svg/menu.svg" alt="" />
+                <p class="text-white font-semibold">Меню</p>
+              </div>
+              <img src="./assets/svg/search.svg" alt="" />
+            </div>
+          </label>
+        </div>
+      </div>
+      <div
+        class="container2 pt-24 flex flex-col gap-10 items-center pb-4 max-[510px]:pt-5"
+      >
+        <div class="pb-10 flex flex-col items-center gap-6">
+          <p class="text-[44px] text-white font-semibold text-center max-[404px]:text-[30px]">
+            Крупнейший <br class="hidden max-[702px]:block" />
+            маркетплейс ЖБИ
+          </p>
+          <div class="flex items-center gap-10 max-[404px]:gap-5 ">
+            <p
+              class="text-white text-[18px] max-[404px]:text-[14px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit"
+            >
+              ЖБИ продукция
+            </p>
+            <p
+              class="max-[404px]:text-[14px] text-white text-[18px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit max-[292px]:hidden"
+            >
+              Дорожные плиты
+            </p>
+
+            <p
+              class="text-white text-[18px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit max-[494px]:hidden"
+            >
+              ФБС
+            </p>
+            <p
+              class="text-white text-[18px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit max-[714px]:hidden"
+            >
+              Плиты перекрытия
+            </p>
+            <p
+              class="text-white text-[18px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit max-[804px]:hidden"
+            >
+              Сваи
+            </p>
+
+            <p
+              class="max-[404px]:text-[14px] text-white text-[18px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit"
+            >
+              ...
+            </p>
+          </div>
+        </div>
+        <div class=" overflow-y-scroll w-full ">
+          <div
+          class="grid grid-cols-4 gap-7 max-lg:grid-cols-2 max-[500px]:grid-cols-4 max-[500px]:w-[1024px]"
+        >
+          <div
+            class="flex flex-col justify-center items-center backdrop-blur-md bg-white/5 py-4 px-10"
+          >
+            <p class="text-white text-[36px] font-semibold">>12 000</p>
+            <p class="text-white text-opacity-50">Товаров в каталоге</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center backdrop-blur-md bg-white/5 py-4 px-10"
+          >
+            <p class="text-white text-[36px] font-semibold">>200</p>
+            <p class="text-white text-opacity-50">Поставщиков</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center backdrop-blur-md bg-white/5 py-4 px-10"
+          >
+            <p class="text-white text-[36px] font-semibold">>150</p>
+            <p class="text-white text-opacity-50">Перевозчиков</p>
+          </div>
+          <div
+            class="flex flex-col justify-center items-center backdrop-blur-md bg-white/5 py-4 px-10"
+          >
+            <p class="text-white text-[36px] font-semibold">>30 000</p>
+            <p class="text-white text-opacity-50">Отгрузок в 2021 г.</p>
+          </div>
+        </div>
+        </div>
+        <div>
+          <img src="./assets/svg/arrow_down.svg" alt="" />
+        </div>
+        <div class="relative grid">
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper text-white">
+              <div class="swiper-slide">
+                <div
+                  class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                >
+                  <p>Дорожное строительство</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                >
+                  <p>Частное домостроение</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                >
+                  <p>Элементы зданий и сооружений</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                >
+                  <p>Инженерные коммуникации</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                >
+                  <p>Благоустройство</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                >
+                  <p>Дорожное строительство</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+        </div>
+      </div>
+    </header> -->
+   <!-- <section>
+      <div class="container2">
+        <div
+          class="py-5 flex gap-8 header items-center justify-between w-full max-[900px]:flex-col-reverse max-[900px]:gap-5 max-[900px]:w-full"
+        >
+          <div
+            class="flex items-center gap-10 max-[900px]:justify-between max-[900px]:w-full max-[300px]:gap-4"
+          >
+            <img
+              class="border-r border-black pr-3 max-[900px]:border-0 max-[900px]:pr-0"
+              src="./assets/svg2/logo.svg"
+              alt=""
+            />
+            <div class="flex items-center gap-2">
+              <img src="./assets/svg2/catalog.svg" alt="" />
+              <p class="text-black font-semibold">Каталог</p>
+            </div>
+          </div>
+
+          <input class="hidden" id="check2" type="checkbox" />
+
+          <div
+            class="flex gap-5 max-[900px]:border-b border-[black] max-[900px]:pb-5 max-[900px]:justify-between max-[900px]:w-full links2"
+          >
+            <div
+              class="flex gap-5 max-[559px]:flex-col max-[559px]:items-center"
+            >
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg2/location.svg" alt="" />
+                <p class="text-black font-semibold">г. Москва</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg2/phone.svg" alt="" />
+                <a
+                  href="tel:+7 (495) 151-08-02"
+                  class="text-black font-semibold"
+                  >+7 (495) 151-08-02</a
+                >
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg2/cart.svg" alt="" />
+                <p class="text-black font-semibold">Корзина</p>
+                <p
+                  class="bg-[#ec0d0d] py-0 px-1 rounded-xl flex items-center justify-center text-white text-[14px] font-semibold text-center"
+                >
+                  100
+                </p>
+              </div>
+              <div class="gap-5 items-center max-[559px]:flex hidden">
+                <img src="./assets/svg2/whatapp.svg" alt="" />
+                <img src="./assets/svg2/mail.svg" alt="" />
+                <img src="./assets/svg2/search.svg" alt="" />
+                <label class="absolute top-7 right-8" for="check2">
+                  <img src="./assets/svg2/x.svg" alt="" />
+                </label>
+              </div>
+            </div>
+
+            <div class="gap-5 items-center min-[559px]:flex hidden">
+              <img src="./assets/svg2/whatapp.svg" alt="" />
+              <img src="./assets/svg2/mail.svg" alt="" />
+              <img src="./assets/svg2/search.svg" alt="" />
+            </div>
+          </div>
+
+          <label class="w-full hidden max-[559px]:flex" for="check2">
+            <div
+              class="items-center justify-between w-full border-b border-[-black] pb-5 flex"
+            >
+              <div class="flex gap-2 items-center">
+                <img src="./assets/svg2/menu.svg" alt="" />
+                <p class="text-black font-semibold">Меню</p>
+              </div>
+              <img src="./assets/svg2/search.svg" alt="" />
+            </div>
+          </label>
+        </div>
+      </div>
+      <div
+        class="container2 pt-7 flex flex-col max-[826px]:flex-wrap gap-7 max-[410px]:pt-4"
+      >
+        <div
+          class="grid grid-cols-3 max-[826px]:grid-cols-2 gap-5 max-[410px]:hidden"
+        >
+          <div class="flex flex-col gap-7">
+            <div class="flex-col flex gap-2">
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                Плиты перекрытия
+              </h1>
+              <p
+                class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+              >
+                Смотреть все
+              </p>
+            </div>
+            <div class="flex-col flex gap-2">
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Прогоны</h1>
+              <p
+                class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+              >
+                Смотреть все
+              </p>
+            </div>
+            <div>
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Фермы</h1>
+              <p
+                class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+              >
+                Смотреть все
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-7">
+            <div>
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Сваи</h1>
+              <p
+                class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+              >
+                Смотреть все
+              </p>
+            </div>
+            <div>
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Ригели</h1>
+              <p
+                class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+              >
+                Смотреть все
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-7">
+            <div>
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                Перемычки
+              </h1>
+              <p
+                class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+              >
+                Смотреть все
+              </p>
+            </div>
+            <div>
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                Вентиляционные блоки
+              </h1>
+              <p
+                class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+              >
+                Смотреть все
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-3 max-[826px]:grid-cols-2 gap-5 max-[410px]:hidden"
+        >
+          <div class="flex-col flex gap-2">
+            <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+              Стеновые материалы
+            </h1>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Кирпич строительный
+            </p>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Панель стеновая
+            </p>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Щелевые блоки
+            </p>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Газосиликатные блоки
+            </p>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <div class="flex-col flex gap-2">
+            <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+              Балки стропильные
+            </h1>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Смотреть все
+            </p>
+          </div>
+          <div class="flex-col flex gap-2">
+            <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+              Балки подкрановые
+            </h1>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Смотреть все
+            </p>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-3 max-[826px]:grid-cols-2 gap-5 max-[410px]:hidden"
+        >
+          <div class="flex-col flex gap-2">
+            <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Фермы</h1>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Смотреть все
+            </p>
+          </div>
+
+          <div class="flex-col flex gap-2">
+            <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+              Стеновые панели
+            </h1>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Стеновые панели по серии 1.432.1-21
+            </p>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Диафрагмы жесткости ДК
+            </p>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Смотреть все
+            </p>
+          </div>
+
+          <div class="flex-col flex gap-2">
+            <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+              Шахты лифтов
+            </h1>
+            <p
+              class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+            >
+              Смотреть все
+            </p>
+          </div>
+        </div>
+        <div class="max-[410px]:flex hidden flex-col gap-3">
+          <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+            Плиты перекрытия
+          </h1>
+          <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Прогоны</h1>
+          <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+            Стеновые материалы
+          </h1>
+          <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Фермы</h1>
+          <p
+            class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+          >
+            Смотреть все
+          </p>
+        </div>
+      </div>
+      <div class="container2 pt-14 pb-9 max-[366px]:pt-9">
+        <div
+          class="flex items-center gap-6 justify-center flex-wrap max-[700px]:justify-start max-[366px]:flex-col max-[366px]:items-start"
+        >
+          <div class="flex items-center gap-2">
+            <img src="./assets/svg/section.i1.svg" alt="" />
+            <p class="">Купить ЖБИ в 3 шага</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="./assets/svg/section.i2.svg" alt="" />
+            <p class="">Поиск</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="./assets/svg/section.i3.svg" alt="" />
+            <p class="">Спецпредложения</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="./assets/svg/section.i4.svg" alt="" />
+            <p class="">Уцененные товары</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="./assets/svg/section.i5.svg" alt="" />
+            <p class="">Прайс листы</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="./assets/svg/section.i6.svg" alt="" />
+            <p class="">Доставка</p>
+          </div>
+        </div>
+      </div>
+    </section>  -->
+    <!-- <section
+     class="bg_img3 max-[902px]:h-[100vh]">
+      <div class="container2">
+        <div
+          class="py-5 flex gap-8 header items-center justify-between w-full max-[900px]:flex-col-reverse max-[900px]:gap-5 max-[900px]:w-full"
+        >
+          <div
+            class="flex items-center gap-10 max-[900px]:justify-between max-[900px]:w-full max-[300px]:gap-4"
+          >
+            <img
+              class="border-r border-white pr-3 max-[900px]:border-0 max-[900px]:pr-0"
+              src="./assets/svg/logo.svg"
+              alt=""
+            />
+            <div class="flex items-center gap-2">
+              <img src="./assets/svg/catalog.svg" alt="" />
+              <p class="text-white font-semibold">Каталог</p>
+            </div>
+          </div>
+
+          <input class="hidden" id="check3" type="checkbox" />
+
+          <div
+            class="flex gap-5 max-[900px]:border-b border-[white] max-[900px]:pb-5 max-[900px]:justify-between max-[900px]:w-full links3"
+          >
+            <div
+              class="flex gap-5 max-[559px]:flex-col max-[559px]:items-center"
+            >
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/location.svg" alt="" />
+                <p class="text-white font-semibold">г. Москва</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/phone.svg" alt="" />
+                <a
+                  href="tel:+7 (495) 151-08-02"
+                  class="text-white font-semibold"
+                  >+7 (495) 151-08-02</a
+                >
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/cart.svg" alt="" />
+                <p class="text-white font-semibold">Корзина</p>
+                <p
+                  class="bg-[#ec0d0d] py-0 px-1 rounded-xl flex items-center justify-center text-white text-[14px] font-semibold text-center"
+                >
+                  100
+                </p>
+              </div>
+              <div class="gap-5 items-center max-[559px]:flex hidden">
+                <img src="./assets/svg/whatapp.svg" alt="" />
+                <img src="./assets/svg/mail.svg" alt="" />
+                <img src="./assets/svg/search.svg" alt="" />
+                <label class="absolute top-7 right-8" for="check3">
+                  <img src="./assets/svg/x.svg" alt="" />
+                </label>
+              </div>
+            </div>
+
+            <div class="gap-5 items-center min-[559px]:flex hidden">
+              <img src="./assets/svg/whatapp.svg" alt="" />
+              <img src="./assets/svg/mail.svg" alt="" />
+              <img src="./assets/svg/search.svg" alt="" />
+            </div>
+          </div>
+
+          <label class="w-full hidden max-[559px]:flex" for="check3">
+            <div
+              class="items-center justify-between w-full border-b border-[white] pb-5 flex"
+            >
+              <div class="flex gap-2 items-center">
+                <img src="./assets/svg/menu.svg" alt="" />
+                <p class="text-white font-semibold">Меню</p>
+              </div>
+              <img src="./assets/svg/search.svg" alt="" />
+            </div>
+          </label>
+        </div>
+      </div>
+      <div class="pt-10 container2">
+        <h1 class="font-semibold text-[36px] text-white text-center">
+          Производство
+        </h1>
+        <div class="overflow-x-scroll w-full pt-7">
+          <div class="grid grid-cols-3 object-cover gap-4 max-[902px]:w-[3200px] max-[902px]:grid-cols-9 max-[500px]:w-[2000px]  ">
+            <div class="flex flex-col items-center  gap-3"><img   src="./assets/img/card1.png" alt="">
+              <p class="text-[18px] font-bold text-white text-center">Производство Москва</p>
+            </div>
+            <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card2.png" alt="">
+              <p class="text-[18px] font-bold text-white text-center">Производство Тучково (МО)</p>
+            </div>
+            <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card3.png" alt="">
+              <p class="text-[18px] font-bold text-white text-center">Производство Рязань</p>
+            </div>
+            <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card4.png" alt="">
+              <p class="text-[18px] font-bold text-white text-center">Производство Коммунарка</p>
+            </div>
+            <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card5.png" alt="">
+              <p class="text-[18px] font-bold text-white text-center">Производство Нара-Фоминск</p>
+            </div>
+            <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card6.png" alt="">
+              <p class="text-[18px] font-bold text-white text-center">Производство Тверь</p>
+            </div>
+            <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card7.png" alt="">
+              <p class="text-[18px] font-bold text-white text-center">Производство Домодедово</p>
+            </div>
+            <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card8.png" alt="">
+              <p class="text-[18px] font-bold text-white text-center">Производство Вязьма</p>
+            </div>
+            <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card9.png" alt="">
+              <p class="text-[18px] font-bold text-white text-center">Производство Сафоново</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    
+    <!-- <div class="swiper mySwiper3 ">
+      <div class="swiper-wrapper"> -->
+        <div class="swiper-slide h-full">
+           <header class="bg_img">
+          <div class="container2">
+            <div
+              class="py-5 flex gap-8 header items-center justify-between w-full max-[900px]:flex-col-reverse max-[900px]:gap-5 max-[900px]:w-full"
+            >
+              <div
+                class="flex items-center gap-10 max-[900px]:justify-between max-[900px]:w-full max-[300px]:gap-4"
+              >
+                <img
+                  class="border-r border-white pr-3 max-[900px]:border-0 max-[900px]:pr-0"
+                  src="./assets/svg/logo.svg"
+                  alt=""
+                />
+                <div class="flex items-center gap-2">
+                  <img src="./assets/svg/catalog.svg" alt="" />
+                  <p class="text-white font-semibold">Каталог</p>
+                </div>
+              </div>
+    
+              <input class="hidden" id="check" type="checkbox" />
+    
+              <div
+                class="flex gap-5 max-[900px]:border-b border-[white] max-[900px]:pb-5 max-[900px]:justify-between max-[900px]:w-full links"
+              >
+                <div
+                  class="flex gap-5 max-[559px]:flex-col max-[559px]:items-center"
+                >
+                  <div class="flex items-center gap-2">
+                    <img src="./assets/svg/location.svg" alt="" />
+                    <p class="text-white font-semibold">г. Москва</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./assets/svg/phone.svg" alt="" />
+                    <a
+                      href="tel:+7 (495) 151-08-02"
+                      class="text-white font-semibold"
+                      >+7 (495) 151-08-02</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./assets/svg/cart.svg" alt="" />
+                    <p class="text-white font-semibold">Корзина</p>
+                    <p
+                      class="bg-[#ec0d0d] py-0 px-1 rounded-xl flex items-center justify-center text-white text-[14px] font-semibold text-center"
+                    >
+                      100
+                    </p>
+                  </div>
+                  <div class="gap-5 items-center max-[559px]:flex hidden">
+                    <img src="./assets/svg/whatapp.svg" alt="" />
+                    <img src="./assets/svg/mail.svg" alt="" />
+                    <img src="./assets/svg/search.svg" alt="" />
+                    <label class="absolute top-7 right-8" for="check">
+                      <img src="./assets/svg/x.svg" alt="" />
+                    </label>
+                  </div>
+                </div>
+    
+                <div class="gap-5 items-center min-[559px]:flex hidden">
+                  <img src="./assets/svg/whatapp.svg" alt="" />
+                  <img src="./assets/svg/mail.svg" alt="" />
+                  <img src="./assets/svg/search.svg" alt="" />
+                </div>
+              </div>
+    
+              <label class="w-full hidden max-[559px]:flex" for="check">
+                <div
+                  class="items-center justify-between w-full border-b border-[white] pb-5 flex"
+                >
+                  <div class="flex gap-2 items-center">
+                    <img src="./assets/svg/menu.svg" alt="" />
+                    <p class="text-white font-semibold">Меню</p>
+                  </div>
+                  <img src="./assets/svg/search.svg" alt="" />
+                </div>
+              </label>
+            </div>
+          </div>
+          <div
+            class="container2 pt-24 flex flex-col gap-10 items-center pb-4 max-[510px]:pt-5"
+          >
+            <div class="pb-10 flex flex-col items-center gap-6">
+              <p class="text-[44px] text-white font-semibold text-center max-[404px]:text-[30px]">
+                Крупнейший <br class="hidden max-[702px]:block" />
+                маркетплейс ЖБИ
+              </p>
+              <div class="flex items-center gap-10 max-[404px]:gap-5 ">
+                <p
+                  class="text-white text-[18px] max-[404px]:text-[14px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit"
+                >
+                  ЖБИ продукция
+                </p>
+                <p
+                  class="max-[404px]:text-[14px] text-white text-[18px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit max-[292px]:hidden"
+                >
+                  Дорожные плиты
+                </p>
+    
+                <p
+                  class="text-white text-[18px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit max-[494px]:hidden"
+                >
+                  ФБС
+                </p>
+                <p
+                  class="text-white text-[18px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit max-[714px]:hidden"
+                >
+                  Плиты перекрытия
+                </p>
+                <p
+                  class="text-white text-[18px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit max-[804px]:hidden"
+                >
+                  Сваи
+                </p>
+    
+                <p
+                  class="max-[404px]:text-[14px] text-white text-[18px] font-semibold border-b pb-1.5 border-[#ffffff8a] border-dashed w-fit"
+                >
+                  ...
+                </p>
+              </div>
+            </div>
+            <div class=" overflow-y-scroll w-full ">
+              <div
+              class="grid grid-cols-4 gap-7 max-lg:grid-cols-2 max-[500px]:grid-cols-4 max-[500px]:w-[1024px]"
+            >
+              <div
+                class="flex flex-col justify-center items-center backdrop-blur-md bg-white/5 py-4 px-10"
+              >
+                <p class="text-white text-[36px] font-semibold">>12 000</p>
+                <p class="text-white text-opacity-50">Товаров в каталоге</p>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center backdrop-blur-md bg-white/5 py-4 px-10"
+              >
+                <p class="text-white text-[36px] font-semibold">>200</p>
+                <p class="text-white text-opacity-50">Поставщиков</p>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center backdrop-blur-md bg-white/5 py-4 px-10"
+              >
+                <p class="text-white text-[36px] font-semibold">>150</p>
+                <p class="text-white text-opacity-50">Перевозчиков</p>
+              </div>
+              <div
+                class="flex flex-col justify-center items-center backdrop-blur-md bg-white/5 py-4 px-10"
+              >
+                <p class="text-white text-[36px] font-semibold">>30 000</p>
+                <p class="text-white text-opacity-50">Отгрузок в 2021 г.</p>
+              </div>
+            </div>
+            </div>
+            <div>
+              <img src="./assets/svg/arrow_down.svg" alt="" />
+            </div>
+            <div class="relative grid">
+              <div class="swiper mySwiper2">
+                <div class="swiper-wrapper text-white">
+                  <div class="swiper-slide">
+                    <div
+                      class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                    >
+                      <p>Дорожное строительство</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                    >
+                      <p>Частное домостроение</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                    >
+                      <p>Элементы зданий и сооружений</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                    >
+                      <p>Инженерные коммуникации</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                    >
+                      <p>Благоустройство</p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div
+                      class="border border-opacity-50 flex items-center justify-center border-white p-1.5"
+                    >
+                      <p>Дорожное строительство</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+             
+            </div>
+          </div>
+        </header>
+      </div>
+        <div class="swiper-slide h-full bg-white">  
+           <section>
+          <div class="container2">
+            <div
+              class="py-5 flex gap-8 header items-center justify-between w-full max-[900px]:flex-col-reverse max-[900px]:gap-5 max-[900px]:w-full"
+            >
+              <div
+                class="flex items-center gap-10 max-[900px]:justify-between max-[900px]:w-full max-[300px]:gap-4"
+              >
+                <img
+                  class="border-r border-black pr-3 max-[900px]:border-0 max-[900px]:pr-0"
+                  src="./assets/svg2/logo.svg"
+                  alt=""
+                />
+                <div class="flex items-center gap-2">
+                  <img src="./assets/svg2/catalog.svg" alt="" />
+                  <p class="text-black font-semibold">Каталог</p>
+                </div>
+              </div>
+    
+              <input class="hidden" id="check2" type="checkbox" />
+    
+              <div
+                class="flex gap-5 max-[900px]:border-b border-[black] max-[900px]:pb-5 max-[900px]:justify-between max-[900px]:w-full links2"
+              >
+                <div
+                  class="flex gap-5 max-[559px]:flex-col max-[559px]:items-center"
+                >
+                  <div class="flex items-center gap-2">
+                    <img src="./assets/svg2/location.svg" alt="" />
+                    <p class="text-black font-semibold">г. Москва</p>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./assets/svg2/phone.svg" alt="" />
+                    <a
+                      href="tel:+7 (495) 151-08-02"
+                      class="text-black font-semibold"
+                      >+7 (495) 151-08-02</a
+                    >
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <img src="./assets/svg2/cart.svg" alt="" />
+                    <p class="text-black font-semibold">Корзина</p>
+                    <p
+                      class="bg-[#ec0d0d] py-0 px-1 rounded-xl flex items-center justify-center text-white text-[14px] font-semibold text-center"
+                    >
+                      100
+                    </p>
+                  </div>
+                  <div class="gap-5 items-center max-[559px]:flex hidden">
+                    <img src="./assets/svg2/whatapp.svg" alt="" />
+                    <img src="./assets/svg2/mail.svg" alt="" />
+                    <img src="./assets/svg2/search.svg" alt="" />
+                    <label class="absolute top-7 right-8" for="check2">
+                      <img src="./assets/svg2/x.svg" alt="" />
+                    </label>
+                  </div>
+                </div>
+    
+                <div class="gap-5 items-center min-[559px]:flex hidden">
+                  <img src="./assets/svg2/whatapp.svg" alt="" />
+                  <img src="./assets/svg2/mail.svg" alt="" />
+                  <img src="./assets/svg2/search.svg" alt="" />
+                </div>
+              </div>
+    
+              <label class="w-full hidden max-[559px]:flex" for="check2">
+                <div
+                  class="items-center justify-between w-full border-b border-[-black] pb-5 flex"
+                >
+                  <div class="flex gap-2 items-center">
+                    <img src="./assets/svg2/menu.svg" alt="" />
+                    <p class="text-black font-semibold">Меню</p>
+                  </div>
+                  <img src="./assets/svg2/search.svg" alt="" />
+                </div>
+              </label>
+            </div>
+          </div>
+          <div
+            class="container2 pt-7 flex flex-col max-[826px]:flex-wrap gap-7 max-[410px]:pt-4"
+          >
+            <div
+              class="grid grid-cols-3 max-[826px]:grid-cols-2 gap-5 max-[410px]:hidden"
+            >
+              <div class="flex flex-col gap-7">
+                <div class="flex-col flex gap-2">
+                  <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                    Плиты перекрытия
+                  </h1>
+                  <p
+                    class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                  >
+                    Смотреть все
+                  </p>
+                </div>
+                <div class="flex-col flex gap-2">
+                  <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Прогоны</h1>
+                  <p
+                    class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                  >
+                    Смотреть все
+                  </p>
+                </div>
+                <div>
+                  <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Фермы</h1>
+                  <p
+                    class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                  >
+                    Смотреть все
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-7">
+                <div>
+                  <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Сваи</h1>
+                  <p
+                    class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                  >
+                    Смотреть все
+                  </p>
+                </div>
+                <div>
+                  <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Ригели</h1>
+                  <p
+                    class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                  >
+                    Смотреть все
+                  </p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-7">
+                <div>
+                  <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                    Перемычки
+                  </h1>
+                  <p
+                    class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                  >
+                    Смотреть все
+                  </p>
+                </div>
+                <div>
+                  <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                    Вентиляционные блоки
+                  </h1>
+                  <p
+                    class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                  >
+                    Смотреть все
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="grid grid-cols-3 max-[826px]:grid-cols-2 gap-5 max-[410px]:hidden"
+            >
+              <div class="flex-col flex gap-2">
+                <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                  Стеновые материалы
+                </h1>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Кирпич строительный
+                </p>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Панель стеновая
+                </p>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Щелевые блоки
+                </p>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Газосиликатные блоки
+                </p>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Смотреть все
+                </p>
+              </div>
+              <div class="flex-col flex gap-2">
+                <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                  Балки стропильные
+                </h1>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Смотреть все
+                </p>
+              </div>
+              <div class="flex-col flex gap-2">
+                <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                  Балки подкрановые
+                </h1>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Смотреть все
+                </p>
+              </div>
+            </div>
+            <div
+              class="grid grid-cols-3 max-[826px]:grid-cols-2 gap-5 max-[410px]:hidden"
+            >
+              <div class="flex-col flex gap-2">
+                <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Фермы</h1>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Смотреть все
+                </p>
+              </div>
+    
+              <div class="flex-col flex gap-2">
+                <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                  Стеновые панели
+                </h1>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Стеновые панели по серии 1.432.1-21
+                </p>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Диафрагмы жесткости ДК
+                </p>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Смотреть все
+                </p>
+              </div>
+    
+              <div class="flex-col flex gap-2">
+                <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                  Шахты лифтов
+                </h1>
+                <p
+                  class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+                >
+                  Смотреть все
+                </p>
+              </div>
+            </div>
+            <div class="max-[410px]:flex hidden flex-col gap-3">
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                Плиты перекрытия
+              </h1>
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Прогоны</h1>
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">
+                Стеновые материалы
+              </h1>
+              <h1 class="text-[18px] font-semibold text-[#ec0d0d]">Фермы</h1>
+              <p
+                class="text-[14px] border-b border-dashed w-fit hover:border-b-[2px] duration-500"
+              >
+                Смотреть все
+              </p>
+            </div>
+          </div>
+          <div class="container2 pt-14 pb-9 max-[366px]:pt-9">
+            <div
+              class="flex items-center gap-6 justify-center flex-wrap max-[700px]:justify-start max-[366px]:flex-col max-[366px]:items-start"
+            >
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/section.i1.svg" alt="" />
+                <p class="">Купить ЖБИ в 3 шага</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/section.i2.svg" alt="" />
+                <p class="">Поиск</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/section.i3.svg" alt="" />
+                <p class="">Спецпредложения</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/section.i4.svg" alt="" />
+                <p class="">Уцененные товары</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/section.i5.svg" alt="" />
+                <p class="">Прайс листы</p>
+              </div>
+              <div class="flex items-center gap-2">
+                <img src="./assets/svg/section.i6.svg" alt="" />
+                <p class="">Доставка</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+        <div class="swiper-slide h-full">
+            <section
+          class="bg_img3 max-[902px]:h-[100vh]">
+           <div class="container2">
+             <div
+               class="py-5 flex gap-8 header items-center justify-between w-full max-[900px]:flex-col-reverse max-[900px]:gap-5 max-[900px]:w-full"
+             >
+               <div
+                 class="flex items-center gap-10 max-[900px]:justify-between max-[900px]:w-full max-[300px]:gap-4"
+               >
+                 <img
+                   class="border-r border-white pr-3 max-[900px]:border-0 max-[900px]:pr-0"
+                   src="./assets/svg/logo.svg"
+                   alt=""
+                 />
+                 <div class="flex items-center gap-2">
+                   <img src="./assets/svg/catalog.svg" alt="" />
+                   <p class="text-white font-semibold">Каталог</p>
+                 </div>
+               </div>
+     
+               <input class="hidden" id="check3" type="checkbox" />
+     
+               <div
+                 class="flex gap-5 max-[900px]:border-b border-[white] max-[900px]:pb-5 max-[900px]:justify-between max-[900px]:w-full links3"
+               >
+                 <div
+                   class="flex gap-5 max-[559px]:flex-col max-[559px]:items-center"
+                 >
+                   <div class="flex items-center gap-2">
+                     <img src="./assets/svg/location.svg" alt="" />
+                     <p class="text-white font-semibold">г. Москва</p>
+                   </div>
+                   <div class="flex items-center gap-2">
+                     <img src="./assets/svg/phone.svg" alt="" />
+                     <a
+                       href="tel:+7 (495) 151-08-02"
+                       class="text-white font-semibold"
+                       >+7 (495) 151-08-02</a
+                     >
+                   </div>
+                   <div class="flex items-center gap-2">
+                     <img src="./assets/svg/cart.svg" alt="" />
+                     <p class="text-white font-semibold">Корзина</p>
+                     <p
+                       class="bg-[#ec0d0d] py-0 px-1 rounded-xl flex items-center justify-center text-white text-[14px] font-semibold text-center"
+                     >
+                       100
+                     </p>
+                   </div>
+                   <div class="gap-5 items-center max-[559px]:flex hidden">
+                     <img src="./assets/svg/whatapp.svg" alt="" />
+                     <img src="./assets/svg/mail.svg" alt="" />
+                     <img src="./assets/svg/search.svg" alt="" />
+                     <label class="absolute top-7 right-8" for="check3">
+                       <img src="./assets/svg/x.svg" alt="" />
+                     </label>
+                   </div>
+                 </div>
+     
+                 <div class="gap-5 items-center min-[559px]:flex hidden">
+                   <img src="./assets/svg/whatapp.svg" alt="" />
+                   <img src="./assets/svg/mail.svg" alt="" />
+                   <img src="./assets/svg/search.svg" alt="" />
+                 </div>
+               </div>
+     
+               <label class="w-full hidden max-[559px]:flex" for="check3">
+                 <div
+                   class="items-center justify-between w-full border-b border-[white] pb-5 flex"
+                 >
+                   <div class="flex gap-2 items-center">
+                     <img src="./assets/svg/menu.svg" alt="" />
+                     <p class="text-white font-semibold">Меню</p>
+                   </div>
+                   <img src="./assets/svg/search.svg" alt="" />
+                 </div>
+               </label>
+             </div>
+           </div>
+           <div class="pt-10 container2">
+             <h1 class="font-semibold text-[36px] text-white text-center">
+               Производство
+             </h1>
+             <div class="overflow-x-scroll w-full pt-7">
+               <div class="grid grid-cols-3 object-cover gap-4 max-[902px]:w-[3200px] max-[902px]:grid-cols-9 max-[500px]:w-[2000px]  ">
+                 <div class="flex flex-col items-center  gap-3"><img   src="./assets/img/card1.png" alt="">
+                   <p class="text-[18px] font-bold text-white text-center">Производство Москва</p>
+                 </div>
+                 <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card2.png" alt="">
+                   <p class="text-[18px] font-bold text-white text-center">Производство Тучково (МО)</p>
+                 </div>
+                 <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card3.png" alt="">
+                   <p class="text-[18px] font-bold text-white text-center">Производство Рязань</p>
+                 </div>
+                 <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card4.png" alt="">
+                   <p class="text-[18px] font-bold text-white text-center">Производство Коммунарка</p>
+                 </div>
+                 <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card5.png" alt="">
+                   <p class="text-[18px] font-bold text-white text-center">Производство Нара-Фоминск</p>
+                 </div>
+                 <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card6.png" alt="">
+                   <p class="text-[18px] font-bold text-white text-center">Производство Тверь</p>
+                 </div>
+                 <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card7.png" alt="">
+                   <p class="text-[18px] font-bold text-white text-center">Производство Домодедово</p>
+                 </div>
+                 <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card8.png" alt="">
+                   <p class="text-[18px] font-bold text-white text-center">Производство Вязьма</p>
+                 </div>
+                 <div class="flex flex-col items-center  gap-3"><img src="./assets/img/card9.png" alt="">
+                   <p class="text-[18px] font-bold text-white text-center">Производство Сафоново</p>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </section>
+        </div>
+        
+      <!-- </div>
+      <div class="swiper-pagination z-[999]"></div>
+    </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper2", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+
+        breakpoints: {
+          296: {
+            slidesPerView: 1.1,
+            spaceBetween: 10,
+          },
+          414: {
+            slidesPerView: 1.5,
+            spaceBetween: 10,
+          },
+          686: {
+            slidesPerView: 2.5,
+            spaceBetween: 10,
+          },
+          826: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+          1107: {
+            slidesPerView: 4,
+            spaceBetween: 10,
+          },
+          1395: {
+            slidesPerView: 5,
+            spaceBetween: 10,
+          },
+        },
+      });
+      var swiper = new Swiper(".mySwiper3", {
+      direction: "vertical",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+    </script>
+  </body>
+</html>
